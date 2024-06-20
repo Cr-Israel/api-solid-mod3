@@ -1,0 +1,28 @@
+{
+  "name": "api-solid-mod3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Cr-Israel/api-solid-mod3.git",
+  "author": "Cr-Israel <carlosisrael08@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "node build src/server.js",
+    "build": "tsup src --out-dir build"
+  },
+  "dependencies": {
+    "@prisma/client": "5.15.1",
+    "dotenv": "16.4.5",
+    "fastify": "4.28.0",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "2.2.2",
+    "@types/node": "20.14.6",
+    "eslint": "9.5.0",
+    "prisma": "5.15.1",
+    "tsup": "8.1.0",
+    "tsx": "4.15.6",
+    "typescript": "5.4.5"
+  }
+}
