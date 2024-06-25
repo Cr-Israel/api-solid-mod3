@@ -6,3 +6,6 @@ build
 
 ## Enviroment
 .env
+
+## Test
+coverage
