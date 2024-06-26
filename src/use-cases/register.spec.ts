@@ -3,7 +3,7 @@ import { compare } from "bcryptjs"
 
 import { RegisterUseCase } from "./register"
 import { UserAlreadyExistsError } from "./errors/user-already-exists-error"
-import { InMemoryUsersRepository } from "@/repositories/im-memory/in-memory-repository"
+import { InMemoryUsersRepository } from "@/repositories/in-memory/in-memory-users-repository"
 
 let usersRepository: InMemoryUsersRepository
 let sut: RegisterUseCase
